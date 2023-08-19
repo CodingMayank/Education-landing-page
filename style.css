@@ -23,7 +23,7 @@ html{
 }
 .nav{
   height:100px;
-  width:94%;
+  width:100%;
   border-bottom:2px solid #dadada;
   display:flex;
   align-items:center;
