@@ -1,0 +1,52 @@
+@media (max-width:600px) {
+    .nav{
+        background-color:#AF98F0;
+        color:black;
+        height:70px;
+    }
+    .nav button{
+        display:none;
+    }
+    .logo1{
+        display:none;
+    }
+    .logo2{
+        display:initial;
+        height:4rem;
+        width:6rem;
+    }
+    .nav h4{
+        display:none;
+    }
+    .nav i{
+        display:initial;
+        font-size:5vw;
+    }
+    #content{
+        height:calc(100% - 70px);
+        flex-direction:column;
+    }
+    .left{
+        height:55%;
+        width:100%;
+    }
+    .left h1{
+        font-size:10vw;
+        padding: 3vw 3vw;
+        line-height:12vw;
+      }
+    .left p{
+        line-height:4.5vw;
+        margin-top:0.6vw;
+        font-size:2.7vw;
+    }
+    .left button{
+        font-size:2.4vw;
+        padding:2vw 1vw;
+        font-weight:700;
+    }
+    .right{
+        height:45%;
+        width:100%;
+    }
+}
